@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-20 10:32-0400\n"
+"PO-Revision-Date: 2024-07-20 14:39+0000\n"
+"Last-Translator:   <jhoelperaltap@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: cart/forms.py:10 cart/templates/cart/detail.html:15
+#, fuzzy
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: cart/templates/cart/detail.html:5 cart/templates/cart/detail.html:9
+#, fuzzy
+msgid "Your shopping cart"
+msgstr "Su carrito"
+
+#: cart/templates/cart/detail.html:13
+#: payment/templates/payment/process.html:11
+#, fuzzy
+msgid "Image"
+msgstr "imagen"
+
+#: cart/templates/cart/detail.html:14
+#: payment/templates/payment/process.html:12
+#, fuzzy
+msgid "Product"
+msgstr "Producto"
+
+#: cart/templates/cart/detail.html:16
+#, fuzzy
+msgid "Remove"
+msgstr "Eliminar"
+
+#: cart/templates/cart/detail.html:17
+#, fuzzy
+msgid "Unit price"
+msgstr "Precio unitario"
+
+#: cart/templates/cart/detail.html:18
+#: payment/templates/payment/process.html:13
+#, fuzzy
+msgid "Price"
+msgstr "Precio"
+
+#: cart/templates/cart/detail.html:53
+#: payment/templates/payment/process.html:33
+#, fuzzy
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: cart/templates/cart/detail.html:59
+#, python-format, fuzzy
+msgid ""
+"\n"
+"              \"%(code)s\" (%(discount)s%% off)\n"
+"            "
+msgstr ""
+
+#: cart/templates/cart/detail.html:70
+#: payment/templates/payment/process.html:15
+#: payment/templates/payment/process.html:52
+#, fuzzy
+msgid "Total"
+msgstr "Total"
+
+#: cart/templates/cart/detail.html:80
+#: shop/templates/shop/product/detail.html:27
+#, fuzzy
+msgid "People who bought this also bought"
+msgstr "Las personas que compraron esto también compraron"
+
+#: cart/templates/cart/detail.html:92
+#, fuzzy
+msgid "Apply a coupon"
+msgstr "Aplicar un cupón"
+
+#: cart/templates/cart/detail.html:100
+#, fuzzy
+msgid "Continue shopping"
+msgstr "Seguir comprando"
+
+#: cart/templates/cart/detail.html:101
+#, fuzzy
+msgid "Checkout"
+msgstr "Verificar"
+
+#: coupons/forms.py:5
+#, fuzzy
+msgid "Coupon"
+msgstr "Cupón"
+
+#: myshop/settings.py:160
+#, fuzzy
+msgid "English"
+msgstr "Inglés"
+
+#: myshop/settings.py:161
+#, fuzzy
+msgid "Spanish"
+msgstr "Español"
+
+#: myshop/urls.py:11
+#, fuzzy
+msgid "cart/"
+msgstr "carrito/"
+
+#: myshop/urls.py:12
+#, fuzzy
+msgid "orders/"
+msgstr "pedidos/"
+
+#: myshop/urls.py:13
+#, fuzzy
+msgid "payment/"
+msgstr "pago/"
+
+#: myshop/urls.py:14
+#, fuzzy
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "Cupón"
+
+#: payment/templates/payment/canceled.html:4
+#, fuzzy
+msgid "Payment canceled"
+msgstr "Pago cancelado"
+
+#: payment/templates/payment/canceled.html:7
+#, fuzzy
+msgid "Your payment has not been processed"
+msgstr "Su pago no ha sido procesado"
+
+#: payment/templates/payment/canceled.html:8
+#, fuzzy
+msgid "There was a problem processing your payment."
+msgstr "Hubo un problema al procesar su pago."
+
+#: payment/templates/payment/completed.html:4
+#, fuzzy
+msgid "Payment successfull"
+msgstr "Pago exitoso"
+
+#: payment/templates/payment/completed.html:7
+#, fuzzy
+msgid "Your payment was successfull"
+msgstr "Su pago fue exitoso"
+
+#: payment/templates/payment/completed.html:8
+#, fuzzy
+msgid "Your payment has been processed successfully."
+msgstr "Su pago ha sido procesado exitosamente."
+
+#: payment/templates/payment/process.html:4
+#, fuzzy
+msgid "Pay your order"
+msgstr "Pagar tu orden"
+
+#: payment/templates/payment/process.html:7
+#, fuzzy
+msgid "Order summary"
+msgstr "Resumen del pedido"
+
+#: payment/templates/payment/process.html:41
+#, python-format, fuzzy
+msgid ""
+"\n"
+"                        \"%(code)s\" (%(discount)s%% off)\n"
+"                        "
+msgstr ""
+
+#: payment/templates/payment/process.html:59
+#, fuzzy
+msgid "Pay now"
+msgstr "Pagar ahora"
+
+#: payment/urls.py:8
+#, fuzzy
+msgid "process/"
+msgstr "procesar/"
+
+#: payment/urls.py:9
+#, fuzzy
+msgid "completed/"
+msgstr "completado/"
+
+#: payment/urls.py:10
+#, fuzzy
+#| msgid "Payment canceled"
+msgid "canceled/"
+msgstr "cancelado/"
+
+#: shop/templates/shop/base.html:11
+#, fuzzy
+msgid "My shop"
+msgstr "Mi tienda"
+
+#: shop/templates/shop/base.html:27
+#, fuzzy
+msgid "Your cart is empty."
+msgstr "Tu carrito esta vacío."
+
+#: shop/templates/shop/product/detail.html:21
+#, fuzzy
+msgid "Add to cart"
+msgstr "Añadir al carrito"
+
+#: shop/templates/shop/product/list.html:5
+#: shop/templates/shop/product/list.html:24
+#, fuzzy
+msgid "Products"
+msgstr "Productos"
+
+#: shop/templates/shop/product/list.html:10
+#, fuzzy
+msgid "Categories"
+msgstr "Categorias"
+
+#: shop/templates/shop/product/list.html:13
+#, fuzzy
+msgid "All"
+msgstr "Todo"
